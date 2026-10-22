@@ -1,0 +1,14 @@
+# Réglages du projet PLU Facile
+
+llm:
+  provider: groq              # "groq" (service en ligne) ou "ollama" (modèle local)
+  model: openai/gpt-oss-20b   # nom du modèle utilisé
+  temperature: 0.0            # 0 = réponses les plus stables possibles
+  max_tokens: 800             # longueur maximale de la réponse
+
+prompts:
+  system: prompts/system_v1.txt   # consignes données au modèle
+
+eval:
+  testset: eval/testset.jsonl     # les cas de test
+  report: eval/report.json        # où le script écrit les résultats
