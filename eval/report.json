@@ -1,0 +1,128 @@
+{
+  "version": "sans_documents",
+  "model": "openai/gpt-oss-20b",
+  "n_cases": 20,
+  "accuracy": 0.6,
+  "results": [
+    {
+      "id": "p001",
+      "expected": "aucune",
+      "predicted": "aucune",
+      "correct": true
+    },
+    {
+      "id": "p002",
+      "expected": "declaration_prealable",
+      "predicted": "declaration_prealable",
+      "correct": true
+    },
+    {
+      "id": "p003",
+      "expected": "aucune",
+      "predicted": "illisible",
+      "correct": false
+    },
+    {
+      "id": "p004",
+      "expected": "declaration_prealable",
+      "predicted": "declaration_prealable",
+      "correct": true
+    },
+    {
+      "id": "p005",
+      "expected": "permis_construire",
+      "predicted": "declaration_prealable",
+      "correct": false
+    },
+    {
+      "id": "p006",
+      "expected": "declaration_prealable",
+      "predicted": "declaration_prealable",
+      "correct": true
+    },
+    {
+      "id": "p007",
+      "expected": "declaration_prealable",
+      "predicted": "declaration_prealable",
+      "correct": true
+    },
+    {
+      "id": "p008",
+      "expected": "declaration_prealable",
+      "predicted": "permis_construire",
+      "correct": false
+    },
+    {
+      "id": "p009",
+      "expected": "declaration_prealable",
+      "predicted": "permis_construire",
+      "correct": false
+    },
+    {
+      "id": "p010",
+      "expected": "permis_construire",
+      "predicted": "permis_construire",
+      "correct": true
+    },
+    {
+      "id": "p011",
+      "expected": "permis_construire",
+      "predicted": "permis_construire",
+      "correct": true
+    },
+    {
+      "id": "p012",
+      "expected": "permis_construire",
+      "predicted": "permis_construire",
+      "correct": true
+    },
+    {
+      "id": "p013",
+      "expected": "aucune",
+      "predicted": "illisible",
+      "correct": false
+    },
+    {
+      "id": "p014",
+      "expected": "declaration_prealable",
+      "predicted": "permis_construire",
+      "correct": false
+    },
+    {
+      "id": "p015",
+      "expected": "aucune",
+      "predicted": "declaration_prealable",
+      "correct": false
+    },
+    {
+      "id": "p016",
+      "expected": "permis_construire",
+      "predicted": "permis_construire",
+      "correct": true
+    },
+    {
+      "id": "p017",
+      "expected": "declaration_prealable",
+      "predicted": "permis_construire",
+      "correct": false
+    },
+    {
+      "id": "p018",
+      "expected": "hors_perimetre",
+      "predicted": "hors_perimetre",
+      "correct": true
+    },
+    {
+      "id": "p019",
+      "expected": "hors_perimetre",
+      "predicted": "hors_perimetre",
+      "correct": true
+    },
+    {
+      "id": "p020",
+      "expected": "hors_perimetre",
+      "predicted": "hors_perimetre",
+      "correct": true
+    }
+  ]
+}
